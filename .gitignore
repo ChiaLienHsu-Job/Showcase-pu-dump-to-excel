@@ -1,0 +1,26 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+TestResults/
+*.user
+*.suo
+*.cache
+*.tmp
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Domain outputs
+*.log
+*.gel.txt
+*.xlsx
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
