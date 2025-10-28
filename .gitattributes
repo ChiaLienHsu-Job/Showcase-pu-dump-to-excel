@@ -1,0 +1,14 @@
+# Normalize line endings to CRLF (this repo targets Windows/Serial log tools)
+*           text eol=crlf
+
+# Treat these as text explicitly
+*.sln       text eol=crlf
+*.csproj    text eol=crlf
+*.cs        text eol=crlf
+*.md        text eol=crlf
+*.txt       text eol=crlf
+
+# Binary
+*.png binary
+*.jpg binary
+*.xlsx binary
